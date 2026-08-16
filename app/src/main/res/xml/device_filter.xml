@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ✅ FILTRO PARA DISPOSITIVOS USB GENÉRICOS -->
+    <!-- Permite que la app reconozca CUALQUIER dispositivo USB -->
+    <!-- Sin restricciones de vendor-id ni product-id -->
+    <usb-device vendor-id="0x0000" product-id="0x0000" />
+
+    <!-- ✅ ALTERNATIVA: Reconocer dispositivos específicos -->
+    <!-- Descomenta si necesitas dispositivos específicos -->
+    <!-- <usb-device vendor-id="0x1234" product-id="0x5678" /> -->
+</resources>
